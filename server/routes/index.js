@@ -11,23 +11,15 @@ router.get("/home", indexController.displayHomePage);
 
 
 /* GET About ME page. */
-router.get("/about", function (req, res, next) {
-  res.render("about", { title: "About" });
-});
+router.get("/about", indexController.displayAboutPage);
 
 /* GET Projects page. */
-router.get("/projects", function (req, res, next) {
-  res.render("projects", { title: "Products" });
-});
+router.get("/projects", indexController.displayProjectsPage);
 
 /* GET Services page. */
-router.get("/services", function (req, res, next) {
-  res.render("services", { title: "Services" });
-});
+router.get("/services", indexController.displayServicesPage);
 
-/* GET Contact Us page. */
-router.get("/contact", function (req, res, next) {
-  res.render("contact", { title: "Contact" });
-});
+/* GET Contact ME page. */
+router.get("/contact", indexController.displayContactPage);
 
 module.exports = router;

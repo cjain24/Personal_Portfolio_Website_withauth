@@ -1,5 +1,5 @@
 {
-  "name": "comp229-f2020-week3",
+  "name": "Personal-Portfolio-Website",
   "version": "0.0.1",
   "private": true,
   "scripts": {
@@ -20,18 +20,11 @@
     "jquery": "^3.5.1",
     "mongoose": "^6.6.5",
     "morgan": "~1.9.1",
+    "passport": "^0.6.0",
     "popper.js": "^1.16.1"
   },
-  "description": "demo app for COMP229 Week 3",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tsiliopoulos/COMP229-F2020-Week3.git"
-  },
-  "author": "Tom Tsiliopoulos",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/tsiliopoulos/COMP229-F2020-Week3/issues"
-  },
-  "homepage": "https://github.com/tsiliopoulos/COMP229-F2020-Week3#readme"
-}
+    "url": "https://github.com/cjain24/COMP229"
+  }
