@@ -1,1 +1,107 @@
 /* custom css goes here */
+
+/*
+App.css
+Chirag Jain
+301307988
+September 25th, 2022
+
+*/
+
+
+
+.download_btn {
+    background-color: grey;
+    color: black;
+    padding: 12px 30px;
+    text-decoration: none;
+    border: black;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.contact_btn {
+    background-color: white;
+    text-decoration: none;
+    color:black    
+
+}
+
+.contact_btn:hover {
+    background-color:black;
+    color: white;
+    text-decoration: none;
+
+}
+
+.download_btn:hover{
+    background-color: black;
+    color: white;
+
+}
+
+.form-control{
+    border: none;
+    color: antiquewhite;
+    
+    outline: none;
+    background: transparent;
+    border-bottom: 10px solid gray;
+    font-size: 30px;
+}
+
+form{
+    margin-top: 50px;
+    transition: all 4s ease-in-out;
+}
+
+body {
+    margin : 0;
+    padding: 0;
+    text-align: center;
+    background: linear-gradient(rgba(0,0,50,0.5),rgba(0,0,50,0.5));
+    background-image: url("/public/Assets/Images/cube_background.jpg");
+    background-size: cover;
+    background-repeat: none;
+    background-attachment: fixed;
+    background-position: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.Credentials {
+    color: white;
+}
+
+.welcome-text
+{
+    text-align: center;
+    color:white;
+    text-transform: uppercase;
+    font-size: 60px;
+    margin-top: 200px;   
+   
+}
+
+.welcome-text a
+{
+    border: 1px solif white;
+    padding: 10px 25px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    margin-top: 20px;
+    display: inline-block;
+    color: whitesmoke;
+}
+
+.contact-title h1 {
+    color: white;
+    font-size: 32px;
+    line-height: 10 px;
+
+}
+
+.contact-title h2 {
+    font-size: 16 px;
+    color: white;
+}
